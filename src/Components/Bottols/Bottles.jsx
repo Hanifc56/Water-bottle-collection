@@ -50,7 +50,7 @@ const Bottles = () => {
   };
   return (
     <div>
-      <h2>Bottles: {bottles.length} </h2>
+      <h2>Total Bottles: {bottles.length} </h2>
       <Cart cart={cart} handleRemoveFromCart={handleRemoveFromCart}></Cart>
       <div className="bottle-container">
         {bottles.map((bottle) => (
